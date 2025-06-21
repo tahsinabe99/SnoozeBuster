@@ -6,3 +6,16 @@ To overcome this, I have decided to make this app.
 
 ## The goal is to:
 Wake you up in one alarm, no fuss, so you wake up when ever you want to.
+
+## Features
+- Set alarms with custom times and sounds
+- No snooze option!
+- Solve math puzzles adn do some simple exercise to stop the alarm
+- Gets your brain and body activated from sleep
+
+## Tech Stack
+- Android (Kotlin)
+- XML layouts
+- AlarmManager, MediaPlayer
+- Coming soon: Room database for saved alarms
+
