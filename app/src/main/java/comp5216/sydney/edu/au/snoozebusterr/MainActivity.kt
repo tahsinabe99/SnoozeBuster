@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
         // Later: set adapter with saved alarms
 
         addAlarmButton.setOnClickListener {
-            // Later: Start AddAlarmActivity
+            val intent = Intent(this, AddAlarmActivity::class.java)
+            startActivity(intent)
         }
     }
 }
